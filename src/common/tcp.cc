@@ -15,9 +15,6 @@ Handler::Handler()
     : transport_(nullptr)
 { }
 
-Handler::~Handler()
-{ }
-
 void
 Handler::associateTransport(Transport* transport) {
     transport_ = transport;
